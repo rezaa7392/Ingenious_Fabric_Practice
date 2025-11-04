@@ -1,0 +1,3 @@
+/.env
+/output
+**/platform_manifest_*.yml
