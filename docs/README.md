@@ -83,11 +83,13 @@ python -m venv .env
 pip install uv
 
 # Install Ingenious framework
-uv pip install git+https://github.com/Insight-Services-APAC/Insight_Ingenious_For_Fabric.git@v1.0
+uv pip install git+https://github.com/Insight-Services-APAC/Insight_Ingenious_For_Fabric.git@v1.1
 
 # Install DBT wrapper
 uv pip install git+https://github.com/Insight-Services-APAC/APAC-Capability-DAI-DbtFabricSparkNB.git
 ```
+#### Ingenious Fabric User Guide
+https://github.com/Insight-Services-APAC/Insight_Ingenious_For_Fabric/blob/dev-jp/docs/user_guide/index.md
 
 ## Assignment Tasks
 
@@ -392,7 +394,7 @@ stages:
               versionSpec: '3.12'
           - script: |
               pip install uv
-              uv pip install git+https://github.com/Insight-Services-APAC/Insight_Ingenious_For_Fabric.git@v1.0
+              uv pip install git+https://github.com/Insight-Services-APAC/Insight_Ingenious_For_Fabric.git@v1.1
             displayName: 'Install Ingenious'
           - script: |
               ingen_fab deploy deploy
